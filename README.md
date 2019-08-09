@@ -1,2 +1,11 @@
 # Quantum-Black
-Hackathon - AnalyticsVidya - Data Engineering - SparkSQL - Python - PySpark
+
+#-----------------------------------------------------------------------------#
+
+Leaderboard Rank out of 3448 participants
+
+Private LB - 63
+
+Public LB - 64
+
+#----------------------------------------------------------------------------#
