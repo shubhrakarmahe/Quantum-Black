@@ -1,6 +1,4 @@
-# Quantum-Black
-
-ACRTA road taxation data engineering
+# Quantum-Black - ACRTA road taxation data engineering
 
 Astro City Road transport authority (ACRTA) in US have come up with an idea to use car registration renewal charges to provide indirect incentives to safe drivers. Also, providing subsidies to certain areas as per the extreme climatic conditions in terms of heavy snow or rain.
 ACRTA has contacted us to perform a quantitative study and design a prediction model to support the aforementioned applications.
@@ -12,10 +10,15 @@ Use cases would be –
 Imposing “unsafe driving tax” on drivers to provide a positive feedback loop which may be revisited every year by looking at the past year trip data based on the driving patterns.
 Lower the tax in the regions where the climatic conditions lead them to become a crash-prone site.
 
-Data Description
-Drive Data (Connected car data) – Data coming from the car-mounted devices, which provides you with the car statistics every second. This information will include – Speed, acceleration, engine temperature and other car statistics.
+Data Description-
+
+Drive Data (Connected car data) – Data coming from the car-mounted devices, which provides you with the car statistics every second. 
+This information will include – Speed, acceleration, engine temperature and other car statistics.
+
 Trip – Parameters associated with location of car such as lattitude, longitude, altitude and other similar parameters.
+
 Weather – Weather condition at different latitude & longitude during different times each day.
+
 Vehicle Specifications – Different vehicle technical specifications which comes from the manufacturer of the car.
 
 Engine Features (file name – engine_features.csv)- Grain - every vehicle aggregated at week start date(Monday) for the complete week in YYYY-MM-DD format. Sorted - by Vehicle ID and week_start_Date in ascending manner
